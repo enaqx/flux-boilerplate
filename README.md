@@ -42,7 +42,6 @@ Usage:
    + stores       // Client-side application state and logic
    + app.js       // Main Web-application file
   + index.html    // Default page
- + tests          // Unit Tests
  + .gitignore     // Specifies intentionally untracked files to ignore by git
  + README.md      // Essential project info
  + package.json   // Packaging format for node.js applications
