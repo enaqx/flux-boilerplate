@@ -27,7 +27,6 @@ Usage:
 
 
  Boilerplate structure:
- `
  |
  + lib            // Server-side functionality
  + src            // Web-application source files
@@ -47,7 +46,7 @@ Usage:
  + README.md      // Essential project info
  + package.json   // Packaging format for node.js applications
  + server.js      // Web-server
- `
+
 
 
 Boileplates examples:
