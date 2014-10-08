@@ -11,9 +11,6 @@ pids
 *.pid
 *.seed
 
-# Coverage directory used by tools like istanbul
-coverage
-
 # Dependency directory
 # Commenting this out is preferred by some people, see
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
@@ -25,3 +22,7 @@ node_modules
 # Temporary files
 tmp
 *~
+
+# Bundle
+src/js/bundle.js
+src/js/bundle.min.js

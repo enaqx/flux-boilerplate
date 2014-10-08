@@ -10,7 +10,6 @@ Tools:
  * Gulp as build system
  * Express as web-server
  * MongoDB/Mongoose as data storage
- * Istanbul as code coverage tool
 
 Usage:
  * Install node.js and mongodb
@@ -50,6 +49,7 @@ Usage:
 
 
 Boileplates examples:
+ * [flux-examples](https://github.com/facebook/flux/tree/master/examples)
  * [react-boilerplate](https://github.com/petehunt/react-boilerplate)
  * [ReactHack](https://github.com/petehunt/ReactHack)
  * [koa-react-full-example](https://github.com/dozoisch/koa-react-full-example)
