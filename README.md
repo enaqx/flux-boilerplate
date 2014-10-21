@@ -17,8 +17,6 @@ Usage:
   `$ npm install`
  * Build project
   `$ npm run build`
- * Run Unit Tests and coverage
-  `$ npm test`
  * Start project
   `$ npm start`
 
