@@ -1,29 +1,28 @@
 flux-boilerplate
 ===
 
-
 Tools:
  * [React](http://facebook.github.io/react/) as UI components library
  * [Flux](http://facebook.github.io/flux/) as UI application architecture
  * [Jest](http://facebook.github.io/jest/) for Unit testing
- * [Webpack](http://webpack.github.io/) for bundling
- * [Express](http://expressjs.com/) as testing web-server
+ * [Webpack](http://webpack.github.io/) for bundling and dev server
 
-Usage:
+Building:
  * Install [node](http://nodejs.org/)
  * `$ git clone https://github.com/enaqx/flux-boilerplate`
  * `$ npm install`
  * `$ npm run build`
- * `$ npm start`
 
+ Testing:
+ * `$ npm start`
+ * Proceed to [http://localhost:8080/app/](http://localhost:8080/app/)
 
  Project structure:
  ```
  │
  ├─── .gitignore  
  ├─── README.md   
- ├─── package.json       
- ├─── server.js          
+ ├─── package.json              
  ├─── webpack.config.js  
  ├─── app/ 
  ├─── ├─── index.html
@@ -37,8 +36,6 @@ Usage:
  │    │    ├─── stores/          
 
  ```
-
-
 
 Boileplates examples:
  * [flux-examples](https://github.com/facebook/flux/tree/master/examples)
