@@ -23,28 +23,25 @@ Usage:
   `$ npm start`
 
 
- Boilerplate structure:
+ Project structure:
  ```
- |
- + app                // Web-application source files
-  |
-  + css               // Cascading Style Sheets files
-  + image             // Pictures folder
-  + js                // Client-side functionality
-   |
-   + actions          // Semantic dispatcher API
-   + components       // React components
-   + constants        // Application Constants
-   + dispatcher       // Data flow management
-   + stores           // Client-side application state and logic
-   + app.js           // Main Web-application file
-  + index.html        // Default page
- + public             // Generated public files
- + .gitignore         // Specifies intentionally untracked files to ignore by git
- + README.md          // Essential project info
- + package.json       // Packaging format for node.js applications
- + server.js          // Testing Web-server
- + webpack.config.js  // Webpack configuration object
+ │
+ ├─── .gitignore  
+ ├─── README.md   
+ ├─── package.json       
+ ├─── server.js          
+ ├─── webpack.config.js  
+ ├─── app/ 
+ ├─── ├─── index.html
+ │    ├─── css/              
+ │    ├─── image/             
+ │    ├─── js/                
+ │    │    ├─── actions/          
+ │    │    ├─── components/      
+ │    │    ├─── constants/        
+ │    │    ├─── dispatcher/       
+ │    │    ├─── stores/          
+
  ```
 
 
