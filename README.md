@@ -3,11 +3,11 @@ flux-boilerplate
 
 
 Tools:
- * React as UI components library
- * Flux as UI application architecture
- * Jest for Unit testing
- * Webpack for bundling
- * Express as testing web-server
+ * [React](http://facebook.github.io/react/) as UI components library
+ * [Flux](http://facebook.github.io/flux/) as UI application architecture
+ * [Jest](http://facebook.github.io/jest/) for Unit testing
+ * [Webpack](http://webpack.github.io/) for bundling
+ * [Express](http://expressjs.com/) as testing web-server
 
 Usage:
  * Install [node](http://nodejs.org/)
