@@ -1,4 +1,4 @@
-flux-boileplate
+flux-boilerplate
 ===
 
 
@@ -11,14 +11,10 @@ Tools:
 
 Usage:
  * Install [node](http://nodejs.org/)
- * Clone project
-  `$ git clone https://github.com/enaqx/flux-boilerplate`
- * Install locally required npm modules
-  `$ npm install`
- * Build project
-  `$ npm run build`
- * Start project
-  `$ npm start`
+ * `$ git clone https://github.com/enaqx/flux-boilerplate`
+ * `$ npm install`
+ * `$ npm run build`
+ * `$ npm start`
 
 
  Project structure:
