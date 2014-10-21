@@ -24,7 +24,7 @@ Usage:
 
 
  Boilerplate structure:
- `
+ ```
  |
  + app                // Web-application source files
   |
@@ -45,7 +45,7 @@ Usage:
  + package.json       // Packaging format for node.js applications
  + server.js          // Testing Web-server
  + webpack.config.js  // Webpack configuration object
- `
+ ```
 
 
 
