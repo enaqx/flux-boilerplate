@@ -7,12 +7,10 @@ Tools:
  * Flux as UI application architecture
  * Jest for Unit testing
  * Webpack for bundling
- * Gulp as build system
- * Express as web-server
- * MongoDB/Mongoose as data storage
+ * Express as testing web-server
 
 Usage:
- * Install node.js and mongodb
+ * Install [node](http://nodejs.org/)
  * Clone project
   `$ git clone https://github.com/enaqx/flux-boilerplate`
  * Install locally required npm modules
@@ -26,25 +24,28 @@ Usage:
 
 
  Boilerplate structure:
+ `
  |
- + lib            // Server-side functionality
- + src            // Web-application source files
+ + app                // Web-application source files
   |
-  + css           // Cascading Style Sheets files
-  + image         // Pictures folder
-  + js            // Client-side functionality
+  + css               // Cascading Style Sheets files
+  + image             // Pictures folder
+  + js                // Client-side functionality
    |
-   + actions      // Semantic dispatcher API
-   + components   // React components
-   + constants    // Application Constants
-   + dispatcher   // Data flow management
-   + stores       // Client-side application state and logic
-   + app.js       // Main Web-application file
-  + index.html    // Default page
- + .gitignore     // Specifies intentionally untracked files to ignore by git
- + README.md      // Essential project info
- + package.json   // Packaging format for node.js applications
- + server.js      // Web-server
+   + actions          // Semantic dispatcher API
+   + components       // React components
+   + constants        // Application Constants
+   + dispatcher       // Data flow management
+   + stores           // Client-side application state and logic
+   + app.js           // Main Web-application file
+  + index.html        // Default page
+ + public             // Generated public files
+ + .gitignore         // Specifies intentionally untracked files to ignore by git
+ + README.md          // Essential project info
+ + package.json       // Packaging format for node.js applications
+ + server.js          // Testing Web-server
+ + webpack.config.js  // Webpack configuration object
+ `
 
 
 

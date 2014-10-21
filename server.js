@@ -3,7 +3,7 @@ var app = express();
 
 var PORT = 3000;
 
-app.use(express.static(__dirname + '/src'));
+app.use(express.static(__dirname + '/app'));
 
 app.listen(process.env.PORT || PORT);
 

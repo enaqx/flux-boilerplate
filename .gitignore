@@ -12,8 +12,6 @@ pids
 *.seed
 
 # Dependency directory
-# Commenting this out is preferred by some people, see
-# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
 node_modules
 
 # Users Environment Variables
@@ -24,5 +22,15 @@ tmp
 *~
 
 # Bundle
-src/js/bundle.js
-src/js/bundle.min.js
+app/js/bundle.js
+app/js/bundle.min.js
+
+# Mac Finder files
+.DS_Store
+._.DS_Store
+
+# Vim files
+*.swp
+
+# WebStorm files
+.idea/
