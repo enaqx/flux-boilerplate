@@ -5,6 +5,7 @@
 * [Flux](http://facebook.github.io/flux/) as UI application architecture
 * [Jest](http://facebook.github.io/jest/) for Unit testing
 * [Webpack](http://webpack.github.io/) for bundling and dev server
+* [Sass](http://sass-lang.com/)
 
 ##### Building:
 * Install [node](http://nodejs.org/)
@@ -25,7 +26,7 @@
  ├─── webpack.config.js  
  ├─── app/ 
  ├─── ├─── index.html
- │    ├─── css/              
+ │    ├─── scss/              
  │    ├─── image/             
  │    ├─── js/                
  │    │    ├─── actions/          

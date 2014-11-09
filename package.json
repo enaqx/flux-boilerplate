@@ -10,7 +10,9 @@
 
   "dependencies": {
     "flux": "^2.0.0",
+    "keymirror": "~0.1.0",
     "lodash": "^2.4.1",
+    "object-assign": "^1.0.0",
     "react": "~0.11.0"
   },
 
@@ -24,9 +26,9 @@
     "jest-cli": "~0.1.17",
     "jsxc": "~0.10.x",
     "jsx-loader": "^0.11.0",
-    "less": "~1.7.5",
-    "less-loader": "~0.7.7",
+    "node-bourbon": "~1.2.3",
     "react-hot-loader": "^0.4.5",
+    "sass-loader": "~0.3.0",
     "style-loader": "~0.8.0",
     "webpack": "^1.4.8",
     "webpack-dev-middleware": "^1.0.11",
@@ -38,12 +40,6 @@
     "test": "jest"
   },
   "author": "Nick Raienko <enaqxx@gmail.com>",
-  "browserify": {
-    "transform": [
-      "reactify",
-      "envify"
-    ]
-  },
   "jest": {
     "rootDir": "./test"
   }
