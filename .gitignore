@@ -6,16 +6,8 @@
 logs
 *.log
 
-# Runtime data
-pids
-*.pid
-*.seed
-
 # Dependency directory
 node_modules
-
-# Users Environment Variables
-.lock-wscript
 
 # Temporary files
 tmp
@@ -24,10 +16,10 @@ tmp
 # Bundle
 app/js/bundle.js
 app/js/bundle.min.js
+app/js/bundle.min.map.js
 
 # Mac Finder files
 .DS_Store
-._.DS_Store
 
 # Vim files
 *.swp
