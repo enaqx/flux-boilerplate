@@ -1,8 +1,7 @@
 {
   "name": "flux-boilerplate",
   "version": "0.0.1",
-  "description": "Web-application boilerplate using Flux architecture.",
-  "license": "MIT",
+  "description": "Tiny Uncluttered Boilerplate using original Flux",
   "repository": {
     "type": "git",
     "url": "https://github.com/enaqx/flux-boilerplate"
@@ -10,9 +9,6 @@
 
   "dependencies": {
     "flux": "^2.0.0",
-    "keymirror": "~0.1.0",
-    "lodash": "^2.4.1",
-    "object-assign": "^1.0.0",
     "react": "~0.11.0"
   },
 
@@ -21,12 +17,10 @@
     "css-loader": "~0.9.0",
     "es6-loader": "^0.2.0",
     "es6-promise": "2.0.0",
-    "express": "~4.9.5",
     "file-loader": "~0.7.2",
     "jest-cli": "~0.1.17",
     "jsxc": "~0.10.x",
     "jsx-loader": "^0.11.0",
-    "node-bourbon": "~1.2.3",
     "react-hot-loader": "^0.4.5",
     "sass-loader": "~0.3.0",
     "style-loader": "~0.8.0",
@@ -37,6 +31,7 @@
   "scripts": {
     "build": "node node_modules/webpack/bin/webpack.js",
     "start": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js app/ --hot",
+    "startProduction": "node server",
     "test": "jest"
   },
   "author": "Nick Raienko <enaqxx@gmail.com>",
