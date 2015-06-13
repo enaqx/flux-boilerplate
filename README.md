@@ -11,7 +11,8 @@
 ###### Manual steps for the glory of your new project:
 * Clone this repository `$ git clone https://github.com/enaqx/flux-boilerplate`
 * Change directory to your new shiny boilerplate `$ cd flux-boilerplate`
-* Remove git folder `$ rm -rf git`
+* Remove git folder `$ rm -rf .git`
+* Init your git repository `$ git init`
 * Install Node dependencies `$ npm install`
 * Build your new shiny project for the first time `$ npm run build`
 * Check development web-server `$ npm start`
@@ -19,7 +20,7 @@
 * Proceed to [http://localhost:8080/app/](http://localhost:8080/app/)
 * Update `package.json` to match your desires
 * Update `README.md` text to show the awesomeness of your new cool shiny project
-* Simplest step: add components, actions, stores, style it sexually and develop actual backend to give them precious data
+* Simplest step: add components, actions, stores, style it sexually
 * Run in production: `$ npm run production`
 * ...
 * Profit!

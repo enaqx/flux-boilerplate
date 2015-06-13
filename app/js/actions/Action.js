@@ -1,10 +1,10 @@
 var AppDispatcher = require('../dispatcher/AppDispatcher');
 var TodoConstants = require('../constants/TodoConstants');
 
-var TodoActions = {
+var Actions = {
 
   /* put actions here */
 
 };
 
-module.exports = TodoActions;
+module.exports = Actions;
