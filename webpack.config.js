@@ -1,16 +1,10 @@
-/*
- * Webpack configuration object
- */
-
-var bourbon = require('node-bourbon').includePaths;
-var path = require("path");
 var webpack = require('webpack');
 
 module.exports = {
   context : __dirname,
   entry : [
     'webpack/hot/dev-server',
-    './app/js/components/App.js'
+    './app/js/app.js'
   ],
   output : {
     path: __dirname,
@@ -22,16 +16,10 @@ module.exports = {
   ],
   module: {
     loaders: [
-      {test: /\.es6\.js$/, 
+      {test: /\.es6\.js$/,
         loader: 'es6-loader'},
-      {test: /\.jsx$/, 
+      {test: /\.jsx$/,
         loaders: ['react-hot', 'jsx-loader?harmony&insertPragma=React.DOM']},
-      {test: /\.scss$/, 
-        loader: "style!css!sass?outputStyle=expanded&includePaths[]=" + 
-            bourbon}
-        /*
-            (path.resolve(__dirname, './app/scss'))}
-        */
     ]
   },
   resolve : {

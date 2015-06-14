@@ -2,6 +2,7 @@
   "name": "flux-boilerplate",
   "version": "0.0.1",
   "description": "Tiny Uncluttered Boilerplate using original Flux",
+  "author": "Nick Raienko <enaqxx@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -21,19 +22,17 @@
     "jsxc": "~0.10.x",
     "jsx-loader": "^0.11.0",
     "react-hot-loader": "^0.4.5",
-    "sass-loader": "~0.3.0",
     "style-loader": "~0.8.0",
     "webpack": "^1.4.8",
     "webpack-dev-middleware": "^1.0.11",
     "webpack-dev-server": "~1.4.7"
   },
   "scripts": {
-    "build": "node node_modules/webpack/bin/webpack.js",
-    "start": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js app/ --hot",
+    "build": "webpack",
+    "start": "webpack-dev-server app/ --hot",
     "startProduction": "node server",
     "test": "jest"
   },
-  "author": "Nick Raienko <enaqxx@gmail.com>",
   "jest": {
     "rootDir": "./test"
   }

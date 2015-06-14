@@ -1,12 +1,5 @@
 ##### Tiny Uncluttered Boilerplate using original Flux
 
-###### Batteries included:
-* [React](http://facebook.github.io/react/) for UI components library
-* [Flux](http://facebook.github.io/flux/) for UI application architecture
-* [Jest](http://facebook.github.io/jest/) for UI Unit testing
-* [Webpack](http://webpack.github.io/) for UIbundling
-* [Sass](http://sass-lang.com/) for UI styling
-* [Node](https://nodejs.org/) for backend platform
 
 ###### Manual steps for the glory of your new project:
 * Clone this repository `$ git clone https://github.com/enaqx/flux-boilerplate`
@@ -36,8 +29,8 @@
  ├─── webpack.config.js
  ├─── app/
  ├─── ├─── index.html
- │    ├─── scss/
- │    ├─── image/
+ │    ├─── css/
+ │    ├─── images/
  │    ├─── js/
  │    │    ├─── actions/
  │    │    ├─── components/
